@@ -1,5 +1,5 @@
 ---
-'''apiVersion: apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: backend
@@ -57,4 +57,4 @@ metadata:
   name: openai
 stringData:
   # TODO(user): change your own token!
-  OPENAI_API_KEY:''' #There is an api key in the authentic code, but for the github, we could not put the api key because of the error.
+  OPENAI_API_KEY: #There is an api key in the authentic code, but for the github, we could not put the api key because of the error.
